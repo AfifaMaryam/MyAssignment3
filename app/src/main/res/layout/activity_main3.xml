@@ -5,20 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity3">
 
-    <TextView
-        android:id="@+id/t1"
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/myText"
-        android:textSize="20sp"
-        android:textColor="#FFFFFF"
-        android:textStyle="bold"
-        android:background="@color/colorAccent"
-       android:layout_gravity="center|right"
+        android:onClick="ButtonClicked"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:textColor="@color/colorAccent"
 
-         />
+        />
 
 
 </LinearLayout>

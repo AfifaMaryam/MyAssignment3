@@ -5,20 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity6">
 
-    <TextView
-        android:id="@+id/t1"
+    <ToggleButton
+        android:id="@+id/toggle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/myText"
-        android:textSize="20sp"
-        android:textColor="#FFFFFF"
-        android:textStyle="bold"
-        android:background="@color/colorAccent"
-       android:layout_gravity="center|right"
+        android:checked="true"
+        android:onClick="ToogleChecked"
 
-         />
-
+        />
 
 </LinearLayout>
